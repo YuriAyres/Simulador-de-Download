@@ -1,0 +1,7 @@
+# Multi-Threaded Download Simulator
+
+Este programa simula o download de múltiplos arquivos utilizando múltiplas threads em Python.
+
+## Como Funciona
+
+O programa cria uma thread para cada arquivo que precisa ser "baixado". Cada thread simula o tempo de download através de uma função `sleep`, que pausa a execução da thread por um tempo aleatório entre 1 e 5 segundos. Quando todas as threads terminam, o programa imprime uma mensagem indicando que todos os downloads foram concluídos.
